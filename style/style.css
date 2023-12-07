@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-base: "Red Hat Display", sans-serif;
+  --primary: #ff5c00;
+  --secondary: #4068b2;
+  --dark: #505355;
+  --light: rgba(64, 104, 178, 0.1);
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Navbar */
+
+nav {
+  background-color: var(--primary);
+  color: white;
+}
+
+footer {
+  background-color: var(--primary);
+  color: white;
+}
