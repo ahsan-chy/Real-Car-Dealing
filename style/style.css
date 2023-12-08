@@ -1,33 +1,75 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
-  text-decoration: none;
   box-sizing: border-box;
 }
 
 :root {
-  --font-base: "Red Hat Display", sans-serif;
-  --primary: #ff5c00;
-  --secondary: #4068b2;
-  --dark: #505355;
-  --light: rgba(64, 104, 178, 0.1);
+  --font-base: "Poppins", sans-serif;
+  --font-secondary: "Playfair Display", serif;
+
+  --primary-color: #2db0b4;
+  --green-color: #33b77e;
+  --secondary-color: #040122;
+  --dark-gray-color: #1b1836;
+  --gray-color: #171d36;
+  --gray-btn-color: #2c3c4d;
+  --light-gray-color: #8c959f;
+  --light: rgba(255, 255, 255, 0.66);
+  --white: #fff;
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: var(--font-base);
+}
+
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--font-secondary);
+  color: var(--white);
+}
+h1 {
+  /* font-size: 3.8rem; */
+}
+h2 {
+  color: var(--white);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: var(--font-secondary);
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+}
+
+p {
+  margin: 0;
+  color: var(--light);
+  font-family: var(--font-base);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 38px;
 }
 
 /* Navbar */
 
 nav {
-  background-color: var(--primary);
+  background-color: var(--secondary-color);
   color: white;
 }
 
 footer {
-  background-color: var(--primary);
+  background-color: var(--primary-color);
   color: white;
 }
