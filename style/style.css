@@ -21,7 +21,7 @@
 
 body {
   font-family: var(--font-base);
-  background-color: var(--dark-gray-color);
+  background-color: var(--secondary-color);
 }
 
 a {
@@ -76,7 +76,7 @@ nav {
   align-items: center;
 }
 .colored-image-Wrapper {
-  width: 110px;
+  width: 65px;
 }
 
 .menu-list {
@@ -118,18 +118,21 @@ nav {
   opacity: 0.9;
 }
 
+/* - Hero SEction */
+
 .hero-section {
   width: 100%;
   height: 788px;
   background-color: var(--dark-gray-color);
-  padding: 114px 47px 0 97px;
+  padding-top: 114px;
 }
 
-.hero-leftwrapper {
+.hero-section .hero-leftwrapper {
+  margin-left: 97px;
   position: relative;
+  padding-right: 120px;
 }
 .hero-leftwrapper h2 {
-  width: 564px;
 }
 .hero-leftwrapper h2 span {
   background-color: var(--green-color);
@@ -161,7 +164,8 @@ nav {
 }
 
 .hero-img-wrapper {
-  width: 630px;
+  width: 748px;
+  /* padding: 0 47px; */
 }
 .hero-img-wrapper img {
   object-fit: cover;
@@ -171,9 +175,11 @@ nav {
 
 /* - Section Three */
 
-.third-section {
+.third-section,
+.eleventh-section {
   background-color: var(--gray-color);
   border-radius: 16px;
+  height: 695px;
   padding: 70px 34px 90px 66px;
 }
 
@@ -221,6 +227,176 @@ nav {
 .third-right-wrapper .dark-gray-btn {
   margin-top: 27px;
 }
+
+/* - Forth Section & Tenth Section */
+
+.forth-wrapper,
+.tenth-wrapper {
+  display: grid;
+  justify-content: center;
+  padding-top: 86px;
+  text-align: center;
+}
+
+.forth-wrapper h3,
+.tenth-wrapper h3 {
+  font-size: 42px;
+  line-height: 63.984px; /* 152.343% */
+}
+
+.forth-wrapper p,
+.tenth-wrapper p {
+  margin-top: 41px;
+  font-size: 22px;
+  line-height: 40px; /* 181.818% */
+  width: 1201px;
+  text-align: center;
+  margin: 41px auto;
+}
+
+.forth-card-wrapper,
+.tenth-card-wrapper {
+  margin-top: 60px;
+  margin-bottom: 340px;
+  display: flex;
+  gap: 38px;
+}
+
+.tenth-wrapper h4 {
+  color: var(--primary-color);
+  font-size: 29px;
+  line-height: 63.984px; /* 220.634% */
+  margin: 0;
+}
+.tenth-wrapper h3 {
+  margin: 0;
+}
+
+.tenth-card-wrapper {
+  margin-bottom: 149px;
+}
+
+/* - 7th Section */
+
+.seventh-section {
+}
+
+.seventh-img-wrapper {
+  width: 528px;
+  height: 528px;
+  border-radius: 528px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.seven-leftwrapper {
+  position: relative;
+  margin-left: 129px;
+}
+.seven-leftwrapper h2 {
+  font-size: 48px;
+  line-height: 63.984px;
+}
+.seven-leftwrapper h2 span {
+  background-color: var(--green-color);
+  border-radius: 50px;
+  padding: 0.5rem;
+}
+
+.seven-leftwrapper p {
+  margin-top: 26px;
+  color: var(--light);
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.seven-img-left {
+  position: absolute;
+  top: -72px;
+  left: -56px;
+}
+
+.seven-leftwrapper button {
+  margin-top: 46px;
+}
+
+/* - 8th Section */
+.eight-section {
+  margin-top: 139px;
+}
+
+.eight-img-wrapper {
+  width: 528px;
+  height: 528px;
+  border-radius: 528px;
+  background: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+/* - 11th Section */
+.eleventh-section {
+  height: 465px;
+  padding: 0;
+}
+
+.eleventh-section .eleventh-right-wrapper {
+  margin-left: 127px;
+  margin-top: 90px;
+}
+
+.eleventh-section .eleventh-right-wrapper h2 {
+  font-size: 33px;
+  font-weight: 800;
+  line-height: 55px;
+}
+
+.eleventh-section .eleventh-right-wrapper h5 {
+  width: 450px;
+  font-size: 20px;
+  line-height: 35px;
+  margin-top: 18px;
+}
+
+.eleventh-section .eleventh-right-wrapper button {
+  margin-top: 47px;
+}
+
+.elaven-img-wrapper {
+  width: 454px;
+  height: 454px;
+  margin-left: auto;
+  margin-right: 66px;
+}
+.elaven-img-wrapper img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+/* .third-section {
+  background-color: var(--gray-color);
+  border-radius: 16px;
+  padding: 70px 34px 90px 66px;
+}
+
+
+.third-right-wrapper h2 {
+  margin-top: 114px;
+  width: 564px;
+}
+.third-right-wrapper p {
+  color: var(--light);
+  font-size: 19px;
+  line-height: 38px;
+  margin-top: 19px;
+} */
+
+/* - Footer */
 /* footer {
   background-color: var(--primary-color);
   color: white;
