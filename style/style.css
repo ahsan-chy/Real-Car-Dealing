@@ -120,17 +120,20 @@ nav {
 
 /* - Hero SEction */
 
+.hero-section-wrapper {
+  width: 100%;
+}
+
 .hero-section {
   width: 100%;
-  height: 788px;
+  /* height: 788px; */
   background-color: var(--dark-gray-color);
-  padding-top: 114px;
+  padding: 114px 47px 167px 97px;
+  overflow: hidden;
 }
 
 .hero-section .hero-leftwrapper {
-  margin-left: 97px;
   position: relative;
-  padding-right: 120px;
 }
 .hero-leftwrapper h2 {
 }
@@ -145,7 +148,8 @@ nav {
   font-size: 25px;
   font-style: normal;
   font-weight: 700;
-  line-height: 82px;
+  margin-top: 21px;
+  margin-bottom: 21px;
 }
 .hero-leftwrapper p {
   color: var(--light);
@@ -164,13 +168,15 @@ nav {
 }
 
 .hero-img-wrapper {
-  width: 748px;
-  /* padding: 0 47px; */
+  /* width: 748px;
+  height: 100%;
+  overflow: hidden; */
+  max-width: 100%;
 }
 .hero-img-wrapper img {
   object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 /* - 2nd Section */
@@ -445,6 +451,100 @@ nav {
   border-radius: 50%;
 }
 
+/* - 6th Section */
+
+.sixth-section {
+}
+
+.sixth-section h3 {
+  font-size: 42px;
+  line-height: 63.984px; /* 152.343% */
+  text-align: center;
+}
+
+.sixth-section h4 {
+  color: var(--primary-color);
+  font-size: 29px;
+  line-height: 63.984px; /* 220.634% */
+  margin: 98px auto 0;
+  text-align: center;
+}
+
+.cards-wrapper {
+  padding: 69px;
+}
+
+.price-card-list {
+  border-radius: 19px;
+  background: #221f3d;
+  box-shadow: 2px 2px 31px 0px rgba(0, 0, 0, 0.16);
+}
+
+.price-card-head {
+  background-color: var(--primary-color);
+  border-radius: 19px 19px 0 0px;
+}
+
+.cards-wrapper p {
+  text-align: center;
+}
+
+.content {
+  padding-top: 8px;
+  padding-left: 37px;
+}
+
+.content .divider {
+  width: 108px;
+  height: 5px;
+  background: var(--primary-color);
+  border-radius: 6px;
+}
+
+.content p:first-child {
+  color: var(--white);
+}
+
+.content .content-first p {
+  text-align: left;
+  color: var(--light);
+  font-size: 22px;
+  line-height: 50px;
+}
+.first-list {
+  margin-top: 12px;
+}
+
+.content .content-second p {
+  text-align: left;
+  color: var(--light);
+  font-size: 22px;
+  line-height: 50px;
+}
+
+.second-list {
+  margin-top: 12px;
+}
+.second-list ul {
+  margin-left: -24px;
+}
+.second-list ul li {
+  list-style: disc;
+  color: var(--white);
+}
+.card-footer-btn {
+  width: 100%;
+}
+.card-footer-btn {
+  width: 100%;
+  text-align: center;
+}
+
+.card-footer-btn .btn {
+  margin: 29px auto 29px -40px;
+  text-align: center;
+}
+
 /* - 7th Section */
 
 .seventh-section {
@@ -591,23 +691,6 @@ nav {
   width: 100%;
   height: auto;
 }
-/* .third-section {
-  background-color: var(--gray-color);
-  border-radius: 16px;
-  padding: 70px 34px 90px 66px;
-}
-
-
-.third-right-wrapper h2 {
-  margin-top: 114px;
-  width: 564px;
-}
-.third-right-wrapper p {
-  color: var(--light);
-  font-size: 19px;
-  line-height: 38px;
-  margin-top: 19px;
-} */
 
 /* - Footer */
 footer {
