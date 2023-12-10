@@ -182,11 +182,13 @@ nav {
 /* - 2nd Section */
 
 .second-section {
-  height: 997px;
+  height: auto;
+  min-height: 997px;
+  padding-top: 72px;
+  padding-bottom: 120px;
 }
 
 .second-section .second-head {
-  margin-top: 40px;
   display: grid;
   justify-content: center;
   text-align: center;
@@ -246,6 +248,90 @@ nav {
 
 .second-left-wrapper button {
   margin-top: 46px;
+}
+
+@media only screen and (max-width: 600px) {
+  .second-section {
+    padding-top: 40px;
+    padding-bottom: 120px;
+  }
+
+  .second-section .second-head .second-sub-head {
+    margin-top: 31px;
+  }
+
+  .second-section .second-head .second-sub-head h2 {
+    margin-top: 10px;
+    font-size: 30px;
+    line-height: unset;
+  }
+  .second-section .second-head .second-sub-head h5 {
+    font-size: 20.7px;
+    line-height: unset;
+  }
+  .second-section .row {
+    margin-top: 47px;
+  }
+  .second-section .second-head .second-sub-head .divider {
+    width: 151px;
+    height: 5px;
+  }
+}
+
+/* - Our Services Card */
+
+.servic-card {
+  background-color: rgba(253, 253, 254, 0.15);
+  width: 412px;
+  border-radius: 13px;
+  padding: 37px 45px 100px 25px;
+  min-height: 550px;
+  height: auto;
+  position: relative;
+}
+
+.servic-card .service-icon-wrapper {
+  background-color: var(--primary-color);
+  padding: 24px;
+  width: 123px;
+  height: 123px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: var(--white);
+  font-size: 2.5rem;
+}
+/* 
+.servic-card .service-icon-wrapper .fa-truck {
+  width: 67px;
+  height: 67px;
+} */
+
+.servic-card h3 {
+  margin-top: 24px;
+  font-size: 34px;
+  line-height: 63.984px;
+}
+
+.servic-card p {
+  margin-top: 10px;
+  font-size: 19px;
+  line-height: 40px;
+  color: var(--light);
+}
+
+.servic-card .white-gray-btn {
+  background-color: var(--white);
+  border-color: var(--white);
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #263238;
+  position: absolute;
+  bottom: 37px;
 }
 
 /* - Section Three */
