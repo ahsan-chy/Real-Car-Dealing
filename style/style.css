@@ -1044,9 +1044,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   height: 278px;
-}
-
-.gallery-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1113,7 +1110,6 @@ footer {
 .gallery-second-wrapper {
   min-height: 951px;
   border-radius: 16px;
-  /* background-color: rgba(44, 60, 77, 0.47); */
   background-color: var(--dark-gray-color);
   padding: 104px 15px 44px 64px;
 }
@@ -1153,6 +1149,7 @@ footer {
   /* object-fit: cover; */
   /* width: 100%;
   height: 100%; */
+  width: 100%;
 }
 
 .gallary-forth-wrapper {
@@ -1253,6 +1250,10 @@ footer {
   width: 100%;
 }
 
+.mobile-gallery-right-wrapper {
+  display: none;
+}
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 50%;
@@ -1260,10 +1261,84 @@ footer {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
+  .gallery-second-wrapper {
+    padding: 60px 26px 44px 26px;
+  }
+  .header-img-left {
+    width: 62px;
+    height: 37px;
+    top: -38px;
+    left: -20px;
+  }
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+  .gallery-section {
+    height: 171px !important;
+  }
+  .gallary-second h3 {
+    font-size: 25px;
+    line-height: 45px;
+  }
+  .gallary-second p {
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 35px;
+  }
+  .gallary-second a {
+    margin: 57px auto 57px;
+  }
+  .gallery-second-left h2 {
+    font-size: 28px;
+    text-align: center;
+    line-height: 45px;
+  }
+  .gallery-second-left p {
+    font-size: 22px;
+  }
+  .gallery-img-wrapper {
+    display: none;
+  }
+
+  .mobile-gallery-right-wrapper {
+    display: block;
+  }
+  .mobile-gallery-img-wrapper {
+    width: 314px;
+    height: 314px;
+    border-radius: 528px;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .mobile-gallery-img-wrapper img {
+    width: 100%;
+  }
+  .gallery-forth-img-wrapper h3 {
+    margin-top: 34px;
+    font-size: 24px;
+  }
+  .gallery-forth-img-wrapper h2 {
+    font-size: 26px;
+  }
+  .gallery-forth-img-wrapper .row {
+    margin-top: 10px;
+  }
+  .gallery-images .card {
+    width: 100%;
+    height: 293px;
+    overflow: hidden;
+  }
+  .tag-wrapper {
+    width: 132px;
+    height: 132px;
+  }
+  .gallary-forth-wrapper h2 {
+    font-size: 28px;
   }
 }
 
