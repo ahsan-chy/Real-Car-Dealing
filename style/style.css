@@ -1170,6 +1170,8 @@ footer {
   margin-top: 9px;
   display: flex;
   gap: 15px;
+}
+.footer-row-first-wrapper .social-wrapper a {
   color: var(--primary-color);
 }
 
@@ -1184,7 +1186,7 @@ footer {
   line-height: 32px;
 }
 
-.footer-row-second-wrapper p {
+.footer-row-second-wrapper a {
   color: var(--white);
   font-size: 14px;
   line-height: 24px;
@@ -1213,7 +1215,8 @@ footer {
   gap: 15px;
 }
 
-.address-wrapper .address-list p {
+.address-wrapper .address-list p,
+.address-wrapper .address-list a {
   color: var(--white);
   font-size: 14px;
   line-height: 24px;
