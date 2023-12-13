@@ -1,197 +1,440 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- CSS Path link -->
+    <link rel="stylesheet" href="./style/style.css" />
 
-  <!-- CSS Path link -->
-  <link rel="stylesheet" href="./style/style.css" />
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png" />
 
-  <!-- Favicon -->
-  <link rel="icon" href="images/logo.png" />
+    <!-- Meta Tags for Blog Page -->
+    <meta
+      name="description"
+      content="Unleash the Beauty of Your Ride with Real Car Detailing's Expert Insights. Discover Pro Tips, Latest Trends, and In-Depth Guides on Car Care. Elevate Your Driving Experience through Our Informative Blog." />
+    <meta
+      name="keywords"
+      content="car detailing, auto detailing, blog, car care, expert insights" />
+    <meta name="author" content="Your Name" />
 
-  <!-- Meta Tags for Blog Page -->
-  <meta name="description"
-    content="Unleash the Beauty of Your Ride with Real Car Detailing's Expert Insights. Discover Pro Tips, Latest Trends, and In-Depth Guides on Car Care. Elevate Your Driving Experience through Our Informative Blog." />
-  <meta name="keywords" content="car detailing, auto detailing, blog, car care, expert insights" />
-  <meta name="author" content="Your Name" />
+    <title>Blog - Real Car Detailing</title>
+  </head>
 
-  <title>Blog - Real Car Detailing</title>
-</head>
-
-<body>
-  <!-- Contact page -->
-  <nav class="navbar navbar-expand-lg bg-blue">
-    <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="mobile-colored-image-Wrapper">
-        <a href="home.html">
-          <img src="./images/Homepage/logo.svg" class="colored-logo" alt="logo-colored" />
-        </a>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <!-- Logo -->
-        <a class="logo-wrapper" href="home.html">
-          <div class="colored-image-Wrapper">
+  <body>
+    <!-- Contact page -->
+    <nav class="navbar navbar-expand-lg bg-blue">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="mobile-colored-image-Wrapper">
+          <a href="home.html">
             <img src="./images/Homepage/logo.svg" class="colored-logo" alt="logo-colored" />
-          </div>
-          <div class="logo-right">
-            <div class="image-Wrapper">
-              <img src="./images/Homepage/logo-text-white.svg" class="white-logo" alt="logo-white" />
-            </div>
-            <div class="image-Wrapper">
-              <img src="./images/Homepage/logo-text.svg" class="green-logo" alt="logo-green" />
-            </div>
-          </div>
-        </a>
-
-        <!-- MEnu list -->
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-list">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="services.html">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
-          </li>
-        </ul>
-        <!-- Right Button -->
-        <button class="btn green-btn" type="submit">Contact Us</button>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Section 1 -->
-  <section class="blog-section">
-    <div class="header-blog-wrapper">
-      <h2>Blog</h2>
-      <p>Home > <span>Blog</span></p>
-    </div>
-  </section>
-
-  <!-- Section 2 -->
-  <section class="blog-content">
-    <div class="container-fluid">
-      <div class="row p-xs-2 p-md-3 p-xl-4">
-        <div class="col-xs-12 col-md-8">
-          <div class="blog-content">
-            <img src="./images/blog/Car_Inspection.jpeg" alt="blog-1" class="img-fluid blog-thumbnail" />
-            <div class="d-flex flex-row align-items-center gap-2 py-2">
-              <img src="./images//blog/Folder_Icon.svg" alt="folder-icon" class="img-fluid" />
-              <div class="h4 mt-3 text-white blog-category">Car Detailing</div>
-            </div>
-            <div class="h2 text-white blog-heading py-2">
-              Gainesville Car Detailing Services: Elevate Your Vehicle's Aesthetics
-            </div>
-            <p class="blog-description py-2">
-              Elevate your car's aesthetics with our dedicated team of expert detailers in Gainesville. We're committed
-              to preserving
-              and enhancing every aspect of your vehicle's appearance, paying meticulous attention to detail that goes
-              beyond the
-              surface. Your car deserves the best, and that's precisely what we offer in Gainesville, Florida.
-            </p>
-            <div class="view-more-wrapper">
-              <div class="d-flex flex-row align-items-center gap-2 view-more">
-                <a href="#">View More</a>
-              </div>
-              <i class="fa-solid fa-arrow-right"></i>
-            </div>
-          </div>
+          </a>
         </div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <!-- Logo -->
+          <a class="logo-wrapper" href="home.html">
+            <div class="colored-image-Wrapper">
+              <img src="./images/Homepage/logo.svg" class="colored-logo" alt="logo-colored" />
+            </div>
+            <div class="logo-right">
+              <div class="image-Wrapper">
+                <img
+                  src="./images/Homepage/logo-text-white.svg"
+                  class="white-logo"
+                  alt="logo-white" />
+              </div>
+              <div class="image-Wrapper">
+                <img src="./images/Homepage/logo-text.svg" class="green-logo" alt="logo-green" />
+              </div>
+            </div>
+          </a>
 
-        <!-- Aside Content -->
-        <div class="col-xs-12 col-md-4 container-aside-content">
-          Side Content
+          <!-- MEnu list -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-list">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+            </li>
+          </ul>
+          <!-- Right Button -->
+          <button class="btn green-btn" type="submit">Contact Us</button>
         </div>
       </div>
-  </section>
+    </nav>
 
-  <footer>
-    <div class="footer-main">
-      <div class="row justify-content-center align-items-center g-2">
-        <div class="col-sm-12 col-md-6 pr-5">
-          <div class="footer-row-first-wrapper">
-            <div class="logo-wrapper" href="#">
-              <div class="colored-image-Wrapper">
-                <img src="./images/Homepage/logo.svg" class="colored-logo" alt="logo-colored" />
+    <!-- Section 1 -->
+    <section class="blog-section">
+      <div class="header-blog-wrapper">
+        <h2>Blog</h2>
+        <p>Home > <span>Blog</span></p>
+      </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="container-fluid">
+      <div class="blog-content">
+        <div class="row p-xs-2 p-md-3 p-xl-4">
+          <!-- bLOG SECTION -->
+          <div class="col-xs-12 col-md-8 blog-card">
+            <!-- Blog First -->
+            <div class="blog-content">
+              <img
+                src="./images/blog/Car_Inspection.jpeg"
+                alt="blog-1"
+                class="img-fluid blog-thumbnail" />
+
+              <div class="d-flex flex-row align-items-center gap-2 py-2 blog-type">
+                <img src="./images//blog/Folder_Icon.svg" alt="folder-icon" class="img-fluid" />
+                <p class="h4 mt-3">Car Detailing</p>
               </div>
-              <div class="logo-right">
-                <div class="image-Wrapper">
-                  <img src="./images/Homepage/logo-text-white.svg" class="white-logo" alt="logo-white" />
+
+              <h2 class="text-white blog-heading-wrapper py-2">
+                Gainesville Car Detailing Services: Elevate Your Vehicle's Aesthetics
+              </h2>
+              <div class="blog-description py-2">
+                <p>
+                  Elevate your car's aesthetics with our dedicated team of expert detailers in
+                  Gainesville. We're committed to preserving and enhancing every aspect of your
+                  vehicle's appearance, paying meticulous attention to detail that goes beyond the
+                  surface. Your car deserves the best, and that's precisely what we offer in
+                  Gainesville, Florida.
+                </p>
+              </div>
+              <div class="view-more-wrapper">
+                <div class="d-flex flex-row align-items-center gap-2 view-more">
+                  <a href="#">View More</a>
                 </div>
-                <div class="image-Wrapper">
-                  <img src="./images/Homepage/logo-text.svg" class="green-logo" alt="logo-green" />
+                <div class="more-icon-wrapper">
+                  <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </div>
             </div>
-            <p>
-              Stay updated on our latest offers and car care tips. Follow us on socials to join
-              our growing community of satisfied customers.
-            </p>
-            <div class="social-wrapper">
-              <a href="#">
-                <i class="fa-brands fa-facebook"></i>
-              </a>
-              <a href="#">
-                <i class="fa-brands fa-youtube"></i>
-              </a>
+
+            <div class="blog-divider"></div>
+
+            <!-- Blog Second -->
+            <div class="blog-content">
+              <img
+                src="./images/blog/Car_Dashboard.jpeg"
+                alt="blog-1"
+                class="img-fluid blog-thumbnail" />
+
+              <div class="d-flex flex-row align-items-center gap-2 py-2 blog-type">
+                <img src="./images//blog/Folder_Icon.svg" alt="folder-icon" class="img-fluid" />
+                <p class="h4 mt-3">Car Detailing</p>
+              </div>
+
+              <h2 class="blog-heading-wrapper py-2">
+                Auto Detailing in Gainesville, FL: Transform Your Car's Beauty
+              </h2>
+              <div class="blog-description py-2">
+                <p>
+                  Discover the ultimate auto detailing experience right here in Gainesville, FL. Our
+                  comprehensive services cover everything from exterior washes to interior
+                  rejuvenation, all tailored to the unique requirements of your vehicle. Get ready
+                  for a transformation that renews your car's beauty and freshness in Gainesville,
+                  Florida.
+                </p>
+              </div>
+              <div class="view-more-wrapper">
+                <div class="d-flex flex-row align-items-center gap-2 view-more">
+                  <a href="#">View More</a>
+                </div>
+                <div class="more-icon-wrapper">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+
+            <div class="blog-divider"></div>
+
+            <!-- Blog Third -->
+            <div class="blog-content">
+              <img
+                src="./images/blog/Car_Washing.jpeg"
+                alt="blog-1"
+                class="img-fluid blog-thumbnail" />
+
+              <div class="d-flex flex-row align-items-center gap-2 py-2 blog-type">
+                <img src="./images//blog/Folder_Icon.svg" alt="folder-icon" class="img-fluid" />
+                <p class="h4 mt-3">Car Detailing</p>
+              </div>
+
+              <h2 class="blog-heading-wrapper py-2">
+                Mobile Car Detailing Gainesville, FL: Convenience and Excellence
+              </h2>
+              <div class="blog-description py-2">
+                <p>
+                  Mobile Car Detailing Gainesville, FL: Convenience and Excellence Convenience and
+                  excellence converge with our mobile car detailing services in Gainesville,
+                  Florida. We bring our expertise right to your doorstep in Gainesville, ensuring
+                  your car receives the care it deserves without disrupting your busy schedule.
+                  Enjoy a hassle-free way to maintain your vehicle's pristine condition in
+                  Gainesville, FL.
+                </p>
+              </div>
+              <div class="view-more-wrapper">
+                <div class="d-flex flex-row align-items-center gap-2 view-more">
+                  <a href="#">View More</a>
+                </div>
+                <div class="more-icon-wrapper">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="blog-divider"></div>
+
+            <!-- Blog Forth -->
+            <div class="blog-content">
+              <img
+                src="./images/blog/car-clean.jpeg"
+                alt="blog-1"
+                class="img-fluid blog-thumbnail" />
+
+              <div class="d-flex flex-row align-items-center gap-2 py-2 blog-type">
+                <img src="./images//blog/Folder_Icon.svg" alt="folder-icon" class="img-fluid" />
+                <p class="h4 mt-3">Auto Detailing</p>
+              </div>
+
+              <h2 class="blog-heading-wrapper py-2">
+                Car Wash Gainesville Florida: Unparalleled Clean and Protection
+              </h2>
+              <div class="blog-description py-2">
+                <p>
+                  Indulge in a car wash experience unlike any other in Gainesville, Florida. Our
+                  advanced techniques and premium products guarantee a spotless finish that not only
+                  cleans but also protects your vehicle's paint and finish. Your car will shine with
+                  lasting brilliance after a visit to our car wash.
+                </p>
+              </div>
+              <div class="view-more-wrapper">
+                <div class="d-flex flex-row align-items-center gap-2 view-more">
+                  <a href="#">View More</a>
+                </div>
+                <div class="more-icon-wrapper">
+                  <i class="fa-solid fa-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+            <div class="blog-divider"></div>
+
+            <div class="pagination-wrapper d-flex justify-content-between w-100">
+              <div class="pagination-btns">
+                <div class="pagination-numbers">1</div>
+                <div class="pagination-numbers bg-white">2</div>
+                <div class="pagination-numbers bg-white">3</div>
+              </div>
+              <div class="pagination-right-btn">
+                <a class="btn green-btn m-lg-auto" type="submit">More</a>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <div class="footer-row-second-wrapper">
-            <h5>Quick Links</h5>
-            <a href="services.html">Services</a>
-            <a href="#">About Us</a>
-            <a href="gallery.html">Gallery</a>
-            <a href="contact-us.html">Contact Us</a>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <div class="footer-row-third-wrapper">
-            <h5>Contact</h5>
-            <div class="address-wrapper">
-              <div class="address-list">
-                <icon-box><i class="fa-solid fa-location-dot"></i></icon-box>
-                <p>Covering Gainesville, Alachua, High Springs and Newberry, Florida</p>
+
+          <!-- Aside Content -->
+          <div class="col-xs-12 col-md-4 px-5 container-aside-content">
+            <div class="sidebar-wrapper">
+              <h2>ABOUT US</h2>
+              <div class="divider"></div>
+              <p>
+                With 7 years of dedicated service to the Gainesville community, Real Car Detailing
+                is a team of car enthusiasts and detailing experts.
+              </p>
+              <div class="sidebar-gray-btn-wrapper">
+                <button class="btn dark-gray-btn" type="submit">Explore More</button>
               </div>
-              <div class="address-list">
-                <icon-box><i class="fa-solid fa-envelope"></i></icon-box>
-                <a href="#">info@realcardetailing.com</a>
+
+              <div class="second-sidebar-section">
+                <h2>recent blog posts</h2>
+                <div class="divider"></div>
+
+                <div class="side-bar-list">
+                  <ul>
+                    <li>
+                      <p>
+                        Mastering the Art of Vehicle Care: The Systematic Approach to Car Detailing
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        Discover the Secrets to a Gleaming Ride: The Importance of Professional Auto
+                        Detailing in Your Local Area
+                      </p>
+                    </li>
+                    <li>
+                      <p>Shining Through Time: The Evolution of Auto Detailing in Florida, USA</p>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div class="address-list">
-                <icon-box><i class="fa-solid fa-phone"></i></icon-box>
-                <a href="#">+3523167265</a>
+
+              <div class="third-sidebar-section">
+                <h2>search posts</h2>
+                <div class="divider"></div>
+                <div class="sidebar-input-wrapper">
+                  <input type="name" class="form-control outline-input" placeholder="Search..." />
+                </div>
+
+                <div class="green-btn-wrapper sidebar-green-btn">
+                  <button class="btn green-btn" type="submit">Search</button>
+                </div>
+              </div>
+
+              <div class="forth-sidebar-section">
+                <h2>categories</h2>
+                <div class="divider"></div>
+
+                <div class="side-bar-list">
+                  <ul>
+                    <li>
+                      <p>Auto Car Detailing</p>
+                    </li>
+                    <li>
+                      <p>Car Detailing</p>
+                    </li>
+                    <li>
+                      <p>Mobile Car Detailing</p>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2023 All Rights Reserved. Car Deta</p>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-</body>
+    </section>
 
+    <!-- 11 Section -->
+    <section class="container">
+      <div class="eleventh-section mt-5">
+        <div class="row justify-content-center align-items-center g-2">
+          <div class="col-sm-12 col-md-8 col-lg-6">
+            <div class="eleventh-right-wrapper">
+              <h2>CONTACT US NOW</h2>
+              <h5>
+                If you have any questions or would like to book an appointment, don't hesitate to
+                contact us.
+              </h5>
+              <a class="btn dark-gray-btn contact-btn" href="contact-us.html" type="submit"
+                >Contact Us</a
+              >
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-6">
+            <div class="elaven-img-wrapper">
+              <img src="./images/Homepage/city-car6.png" alt="hero-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-main">
+        <div class="row justify-content-center align-items-center g-2">
+          <div class="col-sm-12 col-md-6 pr-5">
+            <div class="footer-row-first-wrapper">
+              <div class="logo-wrapper" href="#">
+                <div class="colored-image-Wrapper">
+                  <img src="./images/Homepage/logo.svg" class="colored-logo" alt="logo-colored" />
+                </div>
+                <div class="logo-right">
+                  <div class="image-Wrapper">
+                    <img
+                      src="./images/Homepage/logo-text-white.svg"
+                      class="white-logo"
+                      alt="logo-white" />
+                  </div>
+                  <div class="image-Wrapper">
+                    <img
+                      src="./images/Homepage/logo-text.svg"
+                      class="green-logo"
+                      alt="logo-green" />
+                  </div>
+                </div>
+              </div>
+              <p>
+                Stay updated on our latest offers and car care tips. Follow us on socials to join
+                our growing community of satisfied customers.
+              </p>
+              <div class="social-wrapper">
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <div class="footer-row-second-wrapper">
+              <h5>Quick Links</h5>
+              <a href="services.html">Services</a>
+              <a href="#">About Us</a>
+              <a href="gallery.html">Gallery</a>
+              <a href="contact-us.html">Contact Us</a>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <div class="footer-row-third-wrapper">
+              <h5>Contact</h5>
+              <div class="address-wrapper">
+                <div class="address-list">
+                  <icon-box><i class="fa-solid fa-location-dot"></i></icon-box>
+                  <p>Covering Gainesville, Alachua, High Springs and Newberry, Florida</p>
+                </div>
+                <div class="address-list">
+                  <icon-box><i class="fa-solid fa-envelope"></i></icon-box>
+                  <a href="#">info@realcardetailing.com</a>
+                </div>
+                <div class="address-list">
+                  <icon-box><i class="fa-solid fa-phone"></i></icon-box>
+                  <a href="#">+3523167265</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2023 All Rights Reserved. Car Deta</p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
 </html>
